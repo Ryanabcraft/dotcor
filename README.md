@@ -11,7 +11,7 @@ Abra `index.html` no navegador.
 O instalador cria backup do config.toml, evita duplicar o plugin se ele ja estiver instalado e ativado, e adiciona o marketplace quando precisar.
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://ryanabcraft.github.io/dotcor/install.ps1 | iex"
+powershell -c "irm https://ryanabcraft.github.io/dotcor/install.ps1|iex"
 ```
 
 ## Publicacao
