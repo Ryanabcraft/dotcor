@@ -91,7 +91,23 @@
       <section id="install" class="section two-col">
         <div>
           <p class="eyebrow">Instalacao</p>
-          <h2>Adicione o marketplace no Codex.</h2>
+          <h2>Instale com um comando.</h2>
+          <p>
+            Cole no PowerShell ou CMD. O instalador cria backup do
+            <code>config.toml</code>, adiciona o marketplace e deixa o plugin
+            habilitado.
+          </p>
+        </div>
+        <div class="code-panel">
+          <button class="copy" data-copy="quick-install-code">Copiar</button>
+          <pre id="quick-install-code"><code>powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://ryanabcraft.github.io/dotcor/install.ps1 | iex"</code></pre>
+        </div>
+      </section>
+
+      <section class="section two-col compact">
+        <div>
+          <p class="eyebrow">Manual</p>
+          <h2>Ou adicione no config.</h2>
           <p>
             Cole este bloco no arquivo <code>C:\Users\SEU_USUARIO\.codex\config.toml</code>,
             reinicie o Codex e procure por <strong>Project Dotcor</strong> na tela de plugins.

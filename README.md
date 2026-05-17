@@ -6,6 +6,12 @@ Site oficial do Project Dotcor, com guia de instalacao, uso e link para o market
 
 Abra `index.html` no navegador.
 
+## Instalador publico
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://ryanabcraft.github.io/dotcor/install.ps1 | iex"
+```
+
 ## Publicacao
 
 Este site foi feito para GitHub Pages.
